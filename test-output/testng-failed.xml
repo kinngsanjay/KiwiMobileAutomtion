@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Topfan]" parallel="tests">
+  <parameter name="browser" value="na"/>
+  <test name="001_TC_01">
+    <parameter name="browser" value="na"/>
+    <classes>
+      <class name="applicationComponent.Topfan.AndroidAppAc">
+        <methods>
+          <include name="openApplication"/>
+          <include name="verifyTC01"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- applicationComponent.Topfan.AndroidAppAc -->
+    </classes>
+  </test> <!-- 001_TC_01 -->
+  <test name="002_TC_02">
+    <parameter name="browser" value="na"/>
+    <classes>
+      <class name="applicationComponent.Topfan.AndroidAppAc">
+        <methods>
+          <include name="openApplication"/>
+          <include name="verifyTC02"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- applicationComponent.Topfan.AndroidAppAc -->
+    </classes>
+  </test> <!-- 002_TC_02 -->
+  <test name="003_TC_03">
+    <parameter name="browser" value="na"/>
+    <classes>
+      <class name="applicationComponent.Topfan.AndroidAppAc">
+        <methods>
+          <include name="openApplication"/>
+          <include name="verifyTC03"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- applicationComponent.Topfan.AndroidAppAc -->
+    </classes>
+  </test> <!-- 003_TC_03 -->
+  <test name="004_TC_04">
+    <parameter name="browser" value="na"/>
+    <classes>
+      <class name="applicationComponent.Topfan.AndroidAppAc">
+        <methods>
+          <include name="openApplication"/>
+          <include name="verifyTC03"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- applicationComponent.Topfan.AndroidAppAc -->
+    </classes>
+  </test> <!-- 004_TC_04 -->
+</suite> <!-- Failed suite [Topfan] -->

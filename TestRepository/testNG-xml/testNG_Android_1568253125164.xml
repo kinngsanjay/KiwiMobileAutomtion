@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Topfan" parallel="tests" thread-count="1">
+  <test name="001_TC_01">
+    <parameters>
+      <parameter name="browser" value="na" />
+    </parameters>
+    <classes>
+      <class name="applicationComponent.Topfan.AndroidAppAc">
+        <methods>
+          <include name="openApplication" />
+          <include name="verifyTC01" />
+          <include name="closeApplication" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="002_TC_02">
+    <parameters>
+      <parameter name="browser" value="na" />
+    </parameters>
+    <classes>
+      <class name="applicationComponent.Topfan.AndroidAppAc">
+        <methods>
+          <include name="openApplication" />
+          <include name="verifyTC02" />
+          <include name="closeApplication" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="003_TC_03">
+    <parameters>
+      <parameter name="browser" value="na" />
+    </parameters>
+    <classes>
+      <class name="applicationComponent.Topfan.AndroidAppAc">
+        <methods>
+          <include name="openApplication" />
+          <include name="verifyTC03" />
+          <include name="closeApplication" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="004_TC_04">
+    <parameters>
+      <parameter name="browser" value="na" />
+    </parameters>
+    <classes>
+      <class name="applicationComponent.Topfan.AndroidAppAc">
+        <methods>
+          <include name="openApplication" />
+          <include name="verifyTC03" />
+          <include name="closeApplication" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
+

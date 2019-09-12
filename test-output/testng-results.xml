@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Topfan" duration-ms="134629" started-at="2019-09-12T02:44:55Z" finished-at="2019-09-12T02:47:09Z">
+    <groups>
+    </groups>
+    <test name="001_TC_01" duration-ms="44646" started-at="2019-09-12T02:44:55Z" finished-at="2019-09-12T02:45:39Z">
+      <class name="applicationComponent.Topfan.AndroidAppAc">
+        <test-method status="PASS" signature="intializer(org.testng.ITestContext, java.lang.String)[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@6e38921c]" test-instance-name="" name="intializer" is-config="true" duration-ms="24197" started-at="2019-09-12T08:14:55Z" finished-at="2019-09-12T08:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@53ca01a2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[na]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializer -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@6e38921c]" test-instance-name="" name="openApplication" duration-ms="4950" started-at="2019-09-12T08:15:19Z" finished-at="2019-09-12T08:15:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyTC01()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@6e38921c]" test-instance-name="" name="verifyTC01" duration-ms="13649" started-at="2019-09-12T08:15:24Z" finished-at="2019-09-12T08:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTC01 -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@6e38921c]" test-instance-name="" name="closeApplication" duration-ms="1763" started-at="2019-09-12T08:15:38Z" finished-at="2019-09-12T08:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@6e38921c]" test-instance-name="" name="afterTest" is-config="true" duration-ms="2" started-at="2019-09-12T08:15:39Z" finished-at="2019-09-12T08:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- applicationComponent.Topfan.AndroidAppAc -->
+    </test> <!-- 001_TC_01 -->
+    <test name="002_TC_02" duration-ms="31201" started-at="2019-09-12T02:45:40Z" finished-at="2019-09-12T02:46:11Z">
+      <class name="applicationComponent.Topfan.AndroidAppAc">
+        <test-method status="PASS" signature="intializer(org.testng.ITestContext, java.lang.String)[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@70b0b186]" test-instance-name="" name="intializer" is-config="true" duration-ms="10386" started-at="2019-09-12T08:15:40Z" finished-at="2019-09-12T08:15:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@358c99f5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[na]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializer -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@70b0b186]" test-instance-name="" name="openApplication" duration-ms="3798" started-at="2019-09-12T08:15:50Z" finished-at="2019-09-12T08:15:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyTC02()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@70b0b186]" test-instance-name="" name="verifyTC02" duration-ms="15389" started-at="2019-09-12T08:15:54Z" finished-at="2019-09-12T08:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTC02 -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@70b0b186]" test-instance-name="" name="closeApplication" duration-ms="1622" started-at="2019-09-12T08:16:09Z" finished-at="2019-09-12T08:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@70b0b186]" test-instance-name="" name="afterTest" is-config="true" duration-ms="0" started-at="2019-09-12T08:16:11Z" finished-at="2019-09-12T08:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- applicationComponent.Topfan.AndroidAppAc -->
+    </test> <!-- 002_TC_02 -->
+    <test name="003_TC_03" duration-ms="30663" started-at="2019-09-12T02:46:11Z" finished-at="2019-09-12T02:46:42Z">
+      <class name="applicationComponent.Topfan.AndroidAppAc">
+        <test-method status="PASS" signature="intializer(org.testng.ITestContext, java.lang.String)[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@6a472554]" test-instance-name="" name="intializer" is-config="true" duration-ms="11419" started-at="2019-09-12T08:16:11Z" finished-at="2019-09-12T08:16:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ee0fea4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[na]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializer -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@6a472554]" test-instance-name="" name="openApplication" duration-ms="3189" started-at="2019-09-12T08:16:22Z" finished-at="2019-09-12T08:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyTC03()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@6a472554]" test-instance-name="" name="verifyTC03" duration-ms="14633" started-at="2019-09-12T08:16:26Z" finished-at="2019-09-12T08:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTC03 -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@6a472554]" test-instance-name="" name="closeApplication" duration-ms="1410" started-at="2019-09-12T08:16:40Z" finished-at="2019-09-12T08:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@6a472554]" test-instance-name="" name="afterTest" is-config="true" duration-ms="1" started-at="2019-09-12T08:16:42Z" finished-at="2019-09-12T08:16:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- applicationComponent.Topfan.AndroidAppAc -->
+    </test> <!-- 003_TC_03 -->
+    <test name="004_TC_04" duration-ms="27497" started-at="2019-09-12T02:46:42Z" finished-at="2019-09-12T02:47:09Z">
+      <class name="applicationComponent.Topfan.AndroidAppAc">
+        <test-method status="PASS" signature="globalInitialize()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@69b794e2]" test-instance-name="" name="globalInitialize" is-config="true" duration-ms="117" started-at="2019-09-12T08:14:55Z" finished-at="2019-09-12T08:14:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- globalInitialize -->
+        <test-method status="PASS" signature="intializer(org.testng.ITestContext, java.lang.String)[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@69b794e2]" test-instance-name="" name="intializer" is-config="true" duration-ms="10316" started-at="2019-09-12T08:16:42Z" finished-at="2019-09-12T08:16:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@48524010]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[na]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializer -->
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@69b794e2]" test-instance-name="" name="openApplication" duration-ms="3185" started-at="2019-09-12T08:16:52Z" finished-at="2019-09-12T08:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyTC03()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@69b794e2]" test-instance-name="" name="verifyTC03" duration-ms="12411" started-at="2019-09-12T08:16:55Z" finished-at="2019-09-12T08:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTC03 -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@69b794e2]" test-instance-name="" name="closeApplication" duration-ms="1580" started-at="2019-09-12T08:17:08Z" finished-at="2019-09-12T08:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@69b794e2]" test-instance-name="" name="afterTest" is-config="true" duration-ms="1" started-at="2019-09-12T08:17:09Z" finished-at="2019-09-12T08:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="reportSuite()[pri:0, instance:applicationComponent.Topfan.AndroidAppAc@69b794e2]" test-instance-name="" name="reportSuite" is-config="true" duration-ms="795" started-at="2019-09-12T08:17:09Z" finished-at="2019-09-12T08:17:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSuite -->
+      </class> <!-- applicationComponent.Topfan.AndroidAppAc -->
+    </test> <!-- 004_TC_04 -->
+  </suite> <!-- Topfan -->
+</testng-results>
